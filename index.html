@@ -21,7 +21,7 @@
                 <a class="navbar-brand" href="#">
                     <img src="img/logo.png" class="top-logo">
                 </a>
-                <a class=" l-name" href="#">Tasty<sub>Burgers</sub></a>
+                <a class=" l-name" href="#">Tasty<sub>Burgerse</sub></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -56,104 +56,130 @@
                         </li>
                     </ul>
 
-                   button class=" btn-outline-info btn-lg  r-bt" data-toggle="modal"
-                        data-target="#signupModal">SIGN UP</button>
+                    <button class=" btn-outline-info btn-lg  r-bt" data-toggle="modal" data-target="#joinModal">SIGN
+                        UP</button>
 
                     <button class=" btn-outline-danger btn-lg r-bt" data-toggle="modal"
                         data-target="#loginModal">LOGIN</button>
-
 
                 </div>
             </div>
         </nav>
 
     </div>
- <div class="modal fade" id="joinModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title font-weight-bold" id="exampleModalLabel">JOIN US </h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-left">
-                        <form>
-                            <div class="row mb-3  ">
-                                <label for="inputEmail3" class="col-sm-2 col-form-label font-weight-bold">NAME</label>
-                                <div class="col-sm-10">
-                                    <input type="email" class="form-control" id="inputEmail3">
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <label for="inputPassword3"
-                                    class="col-sm-2 col-form-label font-weight-bold">CONTACT</label>
-                                <div class="col-sm-10">
-                                    <input type="text" maxlength="10" class="form-control" id="inputnum3">
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <label for="inputPassword3"
-                                    class="col-sm-2 col-form-label font-weight-bold ">ADDRESS</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="inputtext4">
-                                </div>
-                            </div>
-                            <fieldset class="row mb-3">
-                                <legend class="col-form-label col-sm-2 pt-0 font-weight-bold ">GENDER</legend>
-                                <div class="col-sm-10">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
-                                            value="option1" checked>
-                                        <label class="form-check-label font-weight-bold" for="gridRadios1">
-                                            MALE
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input " type="radio" name="gridRadios" id="gridRadios2"
-                                            value="option2">
-                                        <label class="form-check-label font-weight-bold" for="gridRadios2">
-                                            FEMALE
-                                        </label>
-                                    </div>
 
-                                </div>
-                            </fieldset>
-                            <div class="row mb-3">
-                                <label for="inputEmail3"
-                                    class="col-sm-2 col-form-label font-weight-bold">EXERCISE</label>
-                                <div class="col-sm-10 offset-sm-2">
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <form>
+                        <div class="row">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
 
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                        <label class="form-check-label font-weight-bold" for="gridCheck1">
-                                            BOXING
-                                        </label>
-                                    </div>
-                                    <div class="form-check ">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                        <label class="form-check-label font-weight-bold" for="gridCheck1">
-                                            CARDIO
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                        <label class="form-check-label font-weight-bold" for="gridCheck1">
-                                            STRENGTH
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#successModal"
-                            data-dismiss="modal">Submit</button>
-
-                    </div>
+                        </div>
+                        <div class="">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class=" form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Save</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="modal fade" id="joinModal" tabindex="-1" aria-labelledby="joinModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title font-weight-bold" id="exampleModalLabel">JOIN US </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-left">
+                    <form>
+                        <div class="row mb-3  ">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label font-weight-bold">NAME</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="row mb-3  ">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label font-weight-bold">E-Mail</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label font-weight-bold">CONTACT</label>
+                            <div class="col-sm-10">
+                                <input type="text" maxlength="10" class="form-control" id="inputnum3">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputPassword3"
+                                class="col-sm-2 col-form-label font-weight-bold ">ADDRESS</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputtext4">
+                            </div>
+                        </div>
+                        <fieldset class="row mb-3">
+                            <legend class="col-form-label col-sm-2 pt-0 font-weight-bold ">Category</legend>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                        value="option1" checked>
+                                    <label class="form-check-label font-weight-bold" for="gridRadios1">
+                                        Veg
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input " type="radio" name="gridRadios" id="gridRadios2"
+                                        value="option2">
+                                    <label class="form-check-label font-weight-bold" for="gridRadios2">
+                                        Veg-Non
+                                    </label>
+                                </div>
+
+                            </div>
+                        </fieldset>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#successModal"
+                        data-dismiss="modal">Submit</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel font">SUBMIT SUCCESSFULLY</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Enjon the Meal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -332,7 +358,7 @@
 
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0)">
                 <h5 class="Tasty Burger fott">Design & Developed by Aditya Singh</h5 class="fott">
-                    <span class="fottt"> All Right Reserved | © Copyright 2021</span>
+                <span class="fottt"> All Right Reserved | © Copyright 2021</span>
 
 
             </div>
