@@ -1,0 +1,93 @@
+@media screen and (max-width:1024px) {
+    .navbar-brand > top-logo{
+        height: auto;
+        width: 100%;
+    }
+    .nav-item{
+        
+        padding: 5px;
+    }
+    .slide{
+        height: 400px;
+        width: 100%;
+    }
+    .card-img-top{
+
+      height: 300px;
+      width: 350px;
+
+    }
+    .b-card{
+     width: 350px;
+     height: 400px;
+    
+     margin: 0px;
+     
+    
+    }
+   
+  
+   .m-card{
+       margin-left: 5px;
+   }
+   .r-card{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+@media screen and (max-width:770px) {
+    .navbar-brand > top-logo{
+        height: auto;
+        width: 100%;
+    }
+    .nav-item{
+        
+        padding: 5px;
+    }
+    .slide{
+        height: 250px;
+        width: 100%;
+    }
+    .card-img-top{
+
+      height: 200px;
+      width: 300px;
+
+    }
+    .b-card{
+     width: 302px;
+     height: 315px;
+     padding: auto;
+     margin: auto;
+    
+
+     
+    
+    }
+   
+  
+   .m-card{
+       margin-top: 0px;
+   }
+   .r-card{
+       margin-top: 25px;
+
+    }
+   .btn-outline-success {
+    border-radius: 15px; 
+    font-size: 22px;
+    }
+    .btn-outline-success:hover {
+    border-radius: 15px; 
+    font-size: 25px;
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(0, 0, 0);
+    }
+    .card-title{
+        font-style: oblique;
+        font-size: 17px;
+        font-weight: bolder;
+       font-family: cursive , Geneva, Tahoma, sans-serif;
+       color: rgb(233, 233, 18);
+       text-decoration-color: rgb(24, 194, 9);
+}
